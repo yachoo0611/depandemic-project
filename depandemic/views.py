@@ -28,12 +28,11 @@ Content = {
 semantic_roles = []
 
 
-
-
 def index(request):
-    return render(request, 'templates/index.html')
+    #twieter 
+    
 
-
+    return render(request, 'depandemic/index.html')
 
 
 def learn(request):
